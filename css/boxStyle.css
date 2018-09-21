@@ -1,0 +1,21 @@
+body{
+	text-align: center;
+}
+
+td {
+	height: 100px;
+	width: 100px;
+}
+tr td:nth-of-type(2) {
+	border-left: black solid 2px;
+	border-right: black solid 2px;
+}
+
+tr:nth-of-type(2) td{
+	border-top: black solid 2px;
+	border-bottom: black solid 2px;
+}
+
+table {
+	margin: auto;
+}

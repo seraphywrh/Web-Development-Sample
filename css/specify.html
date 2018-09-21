@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Specificity</title>
+	<style type="text/css">
+/*	ul {
+		color: purple;
+	}*/
+
+	body {
+		color: red;
+	}
+
+/*inheritance*/
+	p {
+		color: green;
+	}
+
+	ul {
+		color: blue;
+	}
+
+	#special {
+		color: pink;   /*wins out*/
+	}
+
+	li {
+		color: orange;  /*wins*/
+	}
+
+	.highlight {
+		color: yellow;
+	}
+
+
+/*	CSS decide which one to pick -> the most SPECIFIC one*/
+/*use website: specificity calculator to get the level*/
+
+	</style>
+</head>
+<body>
+
+<p>Hello!!</p>
+
+<ul>
+	<li id="special" class="highlight">John</li>
+	<li>Paul</li>
+	<li>Anne</li>
+	<li class="highlight">Ringo</li>
+</ul>
+
+
+</body>
+</html>

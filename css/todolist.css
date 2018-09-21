@@ -1,0 +1,18 @@
+body {
+	background: orange;
+}
+
+/*Three kinds of selector:*/
+/*element*/
+li {
+	border: solid red;
+}
+
+/*id*/
+#special {
+	background: yellow;
+}
+/*class*/
+.completed {
+text-decoration: line-through;
+}

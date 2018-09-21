@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form DEMO</title>
+</head>
+<body>
+
+<h1> Login </h1>
+
+<!-- <form> -->  
+<form action="http://www.wikipedia.org">
+<!-- action - where the form send data to
+	method what HTTP method (get/ post) -->
+
+	<label>
+		Username:
+		<input name="username" type="email" placeholder="email" required>
+	</label> 
+
+	<label for="password">Password:</label>
+	<input id="password" name="password" type="password" placeholder="password" required>
+	<!-- <button>Submit</button> -->
+	<input type="submit">
+
+
+
+	<p>Do you prefer cats or dogs?</p>
+</form>
+
+<h1>Choose Pets</h1>
+
+<!-- name is shown in the url and will be: name=value-->
+<form>
+	<label for="dogs">Dogs:</label>
+	<input name="petChoice" id="dogs" type="radio" value="DOGS">
+	<!-- if assign same name to them, you can choice either one but not both. -->
+	<label for="cat">Cats:</label>
+	<input name="petChoice" id="cats" type="radio" value="CATS">
+
+    
+	<button>Go!</button>   <!-- if the button is at the end of the form, then it will submit the form. -->
+</form>
+
+	<p>*Another two input:</p>
+	<p>color&checkbox:</p>
+	<input type="color">
+	<input type="checkbox">
+
+<h1>Color</h1>
+<form>
+	<p>What's your favorite color?</p>
+
+	<select name="color">
+		<option>Red</option>
+		<option>Orange</option> 
+		<option>Yellow</option>
+		<!-- If no value explictly given, use option as default. -->
+	</select>
+
+	<button>Go!</button>
+</form>
+
+<h1>Mood</h1>
+<form>
+	<p>What's your favorite mood?</p>
+
+	<select name="color">
+		<option value="HAPPY">:)</option>
+		<option value="NEUTRAL">:|</option> 
+		<option value="SAD">:(</option>
+	</select>
+
+	<button>Go!</button>
+</form>
+
+<h1>Long Text</h1>
+<form>
+	<textarea name="paragraph" rows="30" cols="60"></textarea>
+	<button>Go!</button>
+</form>
+
+
+</body>
+</html>

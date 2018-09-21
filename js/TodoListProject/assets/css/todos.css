@@ -1,0 +1,80 @@
+h1 {
+	background: #F9D423;
+	color: white;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: normal;
+	margin: 0;
+}
+
+ul {
+	list-style: none;  /* remove ball points*/
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: IM Fell English SC;
+	background: #ff6e7f;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #bfe9ff, #ff6e7f);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #bfe9ff, #ff6e7f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.fa-edit {
+	float: right;
+}
+
+li {
+	background: #fff;
+	height: 40px;
+	line-height: 40px;
+	color: #666;
+}
+
+li:nth-child(2n) {
+	background: #f7f7f7;
+}
+
+span {
+	background-color: #e65c00;
+	height: 40px;
+	margin-right: 20px;
+	text-align: center;
+	width: 0;
+	display: inline-block;
+	color: white;
+	transition: 0.2s linear;
+	opacity: 0;
+}
+
+li:hover span{
+	width: 40px;
+	opacity: 1.0;
+}
+input {
+	font-size: 18px;
+	background-color: #f7f7f7;
+	width: 100%;
+	padding: 13px 13px 13px 20px;
+	box-sizing: border-box;
+	border: none;
+	margin: none;
+}
+
+input:focus {
+	background: #fff;
+	border: 3px solid pink;
+	outline: none;
+}
+
+#container {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	width:360px;
+	margin: 100px auto;
+	background: #f7f7f7;
+}
+.completed {
+	color: gray;
+	text-decoration: line-through;
+}

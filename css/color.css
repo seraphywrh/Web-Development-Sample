@@ -1,0 +1,25 @@
+/*Hexidecimal: Base 16*/
+
+h1 {
+	color: #000000;   /*black*/
+}
+h2 {
+	color: #4B0082;   /*purple*/
+}
+h3 {
+	color: #FF1493;   /*pink*/
+}
+
+/*FF:R FF:G FF:B*/
+
+/*RGB Base 10*/
+
+h1{
+	color: rgb(0,255,0);
+}
+
+/*RGBA: like RGB but with an alpha(transparency) channel range from 0-1.*/
+
+h1 {
+	color: rgba(0,200,100, 0.5);
+}

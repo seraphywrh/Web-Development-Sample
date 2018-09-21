@@ -1,0 +1,39 @@
+.row {
+	width:80%;
+	margin: auto;
+}
+
+.card {
+	width: 21%;
+	height: 300px;
+	margin: 2%;
+}
+
+
+button {
+	border: white dashed 2px;
+	background: rgba(150, 150, 150, 0.5);
+	color: white;
+}
+
+.btnrow {
+	align-items: center;
+}
+
+.score {
+	margin: 30px auto;
+}
+
+h1 {
+	height: 300px;
+	width: 90%;
+	margin: 30px auto;
+	background: url("https://bpsh2.hs.llnwd.net/e1/contenthub-cdn-origin/media/betsafe/betsafe_blog/Echo_Main.jpg");
+	background-size: 1200px;
+}
+
+img {
+	height: 30px;
+	width: 30px;
+	margin: 30px auto;
+}

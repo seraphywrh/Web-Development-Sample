@@ -1,0 +1,30 @@
+body {
+	border: #bdc3c7 solid 20px;
+	padding: 0 20px;
+	width: 80%;
+	max-width: 700px;
+	margin: 20px auto;
+	font-family: Source Sans Pro, sans-serif;  /*defualt font, if there is no ssp in certain pc*/
+}
+
+h2 {
+	font-size: 2.0rem;
+	color: #2c3e50;
+	font-weight: 800;
+}
+
+.date {
+	color: #3498db;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-weight: 100;
+}
+
+.quote {
+	border-left: #bdc3c7 5px solid;
+	padding-left: 4px
+}
+
+div {
+	border-bottom: #bdc3c7 solid 1px;
+}
